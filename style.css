@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #E5E5E5;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+
+.img-container{
+    border-radius: 50%;
+    overflow: hidden;
+}
